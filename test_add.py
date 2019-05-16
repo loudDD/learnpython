@@ -10,6 +10,7 @@
 
 from add import method_a
 import unittest
+import HTMLTestRunner
 
 class test_a(unittest.TestCase):
 
@@ -24,6 +25,3 @@ class test_a(unittest.TestCase):
         result = self.meth.minux(5,3)
         self.assertEqual(result,2)
 
-
-if __name__ == '__main__':
-    unittest.main()
