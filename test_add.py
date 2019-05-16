@@ -23,3 +23,7 @@ class test_a(unittest.TestCase):
     def test_minus1(self):
         result = self.meth.minux(5,3)
         self.assertEqual(result,2)
+
+
+if __name__ == '__main__':
+    unittest.main()
